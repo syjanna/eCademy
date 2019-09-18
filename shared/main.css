@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC');
+
+
+html {
+	background-repeat: no-repeat;
+	background-size: cover;
+  position: relative;
+
+
+}
+body, html {
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	background-color:#d1a9c0;
+}
+
+
+.headline {
+	font-size: 3em;
+	font-weight:500;
+	margin: 0;
+}
+
+
+.tagline {
+	font-size:1em;
+	font-weight: lighter;
+	margin:0;
+}
+
+.regtext {
+	margin: 25px 200px ;
+}
+
+h1.title{
+	color: #4c2342;
+	font-size: 3em;
+	weight: lighter;
+	margin: 0;
+	font-family: 'Noto Serif TC', serif;
+}
+
+h2.subtitle{
+	font-family: 'Noto Serif TC', serif;
+	color: #4c2342;
+}
+
+.tut {
+	margin: 25px;
+	text-align: left;
+	font-size: 90%;
+}
+
+ul li {
+	text-align: left;
+	font-size: 90%;
+}
+
+
+p.desc {
+	font-weight: lighter;
+	font-size: 80%;
+}
+
+p.subsection {
+	color: #758fba;
+	text-align: left;
+	margin: 25px ;
+}
+
+p.subsubsection{
+	color: #5F607D;
+	text-align: left;
+	margin: 25px;
+	font-size: 90%;
+	font-weight: bold;
+}
+
+.doc{
+	font-family: 'Source Code Pro', monospace;
+}
+
+a:link {
+	color: #f7e8f5;
+
+}
+
+.sidenav {
+	width: 200px;
+	position: fixed;
+	top: 170px;
+	left: 10px;
+	background: #a5829d;
+	overflow-x: hidden;
+	padding: 8px 0;
+}
+
+.sidenav label {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 15px;
+	display: block;
+}
+
+.sidenav label:hover{
+	color: #e2ccdf;
+	cursor: pointer;
+}
+
+
+#courseArea{
+	margin-left: 200px;
+	padding: 0px 10px;
+}
+
+#logo {
+	position: relative;
+	background-color: #a5829d;
+	height: 120px;
+	min-width: 400px;
+}
+
+#logo img {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 400px;
+	height: 100px;
+}
+
+
+#banner {
+	background-image: url("banner.jpg");
+	height: 25%;
+	filter:drop-shadow(8px 8px 10px gray);
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#bannertxt {
+	text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+}
+
+
+
+#login_form {
+	border-style:solid;
+	width: 400px;
+	height: 350px;
+}
+
+#login_form a {
+	color: #f7e8f5;
+}
+
+#login_form a:hover {
+	color: #e2ccdf;
+}
+
+#login_form label {
+	font-size: 13px;
+}
+
+#user_bookmarks {
+	border-style: solid;
+	width: 70%;
+	height: 500px;
+	overflow: auto;
+}
+
+#userImages {
+	border-style: dotted;
+	width: 50%;
+	height: 300px;
+	overflow: auto;
+}
+
+p.subsection {
+	color: #758fba;
+	text-align: left;
+	margin: 25px ;
+}
+.tut {
+	margin: 25px;
+	text-align: left;
+	font-size: 90%;
+}
+
+
+.xmlcontent {
+	border-style: solid;
+	width: 70%;
+	height: 500px;
+	overflow: auto;
+}
+
+
+.txt_btn {
+	border-style: solid;
+	border-color: #6b4a64;
+	background-color: inherit;
+	padding: 14px 28px;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+	display: inline-block;
+	color: #6b4a64;
+}
+
+
+.txt_btn:hover {
+	background: #e8d3e3;
+}
+
+
+.btn {
+	cursor: pointer;
+}
+
+.txt_btn: hover {
+	background: #eee;
+}
+
+
+
+.show {display: block;}
+
+
+
+img.resize {
+    width:400px;
+    height:auto;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
